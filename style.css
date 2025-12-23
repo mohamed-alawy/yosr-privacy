@@ -346,8 +346,8 @@ body {
     font-weight: 300;
 }
 
-/* Countries Section */
-.yosr-countries {
+/* Letters Types Section */
+.yosr-letters-types {
     background: #1C1C1E; /* iOS Dark Surface */
     backdrop-filter: blur(10px);
     padding: 60px 40px;
@@ -356,14 +356,14 @@ body {
     border: 0.5px solid rgba(142, 142, 147, 0.2);
 }
 
-.yosr-countries-grid {
+.yosr-letters-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 25px;
     margin-top: 40px;
 }
 
-.yosr-country-card {
+.yosr-letter-card {
     background: #2C2C2E; /* iOS Card Background */
     padding: 30px 20px;
     border-radius: 16px; /* iOS rounded corners */
@@ -372,28 +372,30 @@ body {
     border: 0.5px solid rgba(142, 142, 147, 0.2);
 }
 
-.yosr-country-card:hover {
+.yosr-letter-card:hover {
     background: rgba(0, 122, 255, 0.1);
     transform: translateY(-8px);
     border-color: rgba(0, 122, 255, 0.4);
 }
 
-.yosr-country-flag {
-    font-size: 3.5em;
+.yosr-letter-icon {
+    font-size: 3em;
     margin-bottom: 15px;
+    display: block;
 }
 
-.yosr-country-card strong {
+.yosr-letter-card strong {
     display: block;
     font-size: 1.3em;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     font-weight: 600;
 }
 
-.yosr-country-card p {
+.yosr-letter-card p {
     font-size: 1em;
     opacity: 0.9;
     font-weight: 300;
+    line-height: 1.6;
 }
 
 /* Footer */
@@ -646,24 +648,24 @@ body {
         line-height: 1.6;
     }
     
-    /* Countries Section */
-    .yosr-countries {
+    /* Letters Types Section */
+    .yosr-letters-types {
         padding: 35px 20px;
         margin-bottom: 40px;
         text-align: center;
     }
     
-    .yosr-countries-grid {
+    .yosr-letters-grid {
         gap: 15px;
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .yosr-country-card {
-        padding: 20px 12px;
+    .yosr-letter-card {
+        padding: 25px 15px;
     }
     
-    .yosr-country-flag {
-        font-size: 2.8em;
+    .yosr-letter-icon {
+        font-size: 2.5em;
         margin-bottom: 10px;
     }
     
@@ -1039,29 +1041,29 @@ body {
         font-size: 0.9em;
     }
     
-    .yosr-countries {
+    .yosr-letters-types {
         padding: 25px 15px;
     }
     
-    .yosr-countries-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+    .yosr-letters-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
     
-    .yosr-country-card {
-        padding: 18px 10px;
+    .yosr-letter-card {
+        padding: 25px 15px;
     }
     
-    .yosr-country-flag {
+    .yosr-letter-icon {
         font-size: 2.5em;
     }
     
-    .yosr-country-card strong {
-        font-size: 1em;
+    .yosr-letter-card strong {
+        font-size: 1.1em;
     }
     
-    .yosr-country-card p {
-        font-size: 0.85em;
+    .yosr-letter-card p {
+        font-size: 0.9em;
     }
     
     .yosr-footer {
